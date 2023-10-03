@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    n=n*(-1)
+    return s[:n]
+print(main("46665",3))
